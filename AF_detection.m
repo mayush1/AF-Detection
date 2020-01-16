@@ -3,7 +3,7 @@ close all;
 clc ;
  
 % Load Data Here%
-load('BEN_iPPG.mat')
+load('Subject_iPPG.mat')
 ppg = Sessiondata(4:end,2);
 ppg = cell2mat(ppg);
 % load('patient2_pre.mat')
